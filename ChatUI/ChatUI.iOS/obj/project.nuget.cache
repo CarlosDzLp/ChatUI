@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nn95eokC1J760GVcBfTsKz2tMA17yrSEzkJBpPDTX+4ncqks1DzmWhJrBR47bQyhlbROB/8HBJaqCzufg5fCig==",
+  "success": true,
+  "projectFilePath": "/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/ChatUI.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/carlosdiaz/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/carlosdiaz/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

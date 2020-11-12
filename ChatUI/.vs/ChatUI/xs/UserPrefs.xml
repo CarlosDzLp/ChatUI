@@ -1,0 +1,6 @@
+﻿<Properties StartupConfiguration="{AF2BE4E8-4E23-431D-9EBF-ADB66A613963}|Default">
+  <MonoDevelop.Ide.ItemProperties.ChatUI.Android FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ChatUI FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ChatUI.iOS FirstBuild="True" />
+</Properties>
