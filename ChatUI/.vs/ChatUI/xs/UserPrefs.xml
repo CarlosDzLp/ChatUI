@@ -1,5 +1,19 @@
 ﻿<Properties StartupConfiguration="{AF2BE4E8-4E23-431D-9EBF-ADB66A613963}|Default">
-  <MonoDevelop.Ide.ItemProperties.ChatUI.Android FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChatUI" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ChatUI.Android FirstBuild="True" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.ChatUI FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.ChatUI.iOS FirstBuild="True" />
