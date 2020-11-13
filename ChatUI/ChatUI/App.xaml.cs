@@ -1,4 +1,5 @@
 ﻿using System;
+using ChatUI.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace ChatUI
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new ChatPage());
         }
 
         protected override void OnStart()

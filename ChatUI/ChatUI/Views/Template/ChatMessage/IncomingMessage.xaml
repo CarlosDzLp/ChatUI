@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Grid
+    x:Class="ChatUI.Views.Template.ChatMessage.IncomingMessage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:font="clr-namespace:ChatUI.Fonts"
+    xmlns:pancakeview="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation"
+    BackgroundColor="White">
+    <Grid Margin="0,0,50,0" ColumnDefinitions="*,Auto">
+        <pancakeview:PancakeView
+            Grid.Column="0"
+            Margin="0,0,0,0"
+            Padding="20,15"
+            BackgroundColor="#FFEFED"
+            CornerRadius="0,20,0,20">
+            <StackLayout>
+                <Label
+                    HorizontalOptions="Start"
+                    Text="{Binding Date}"
+                    TextColor="#9E9E9E" />
+                <Label
+                    HorizontalOptions="Start"
+                    Text="{Binding Message}"
+                    TextColor="#9E9E9E" />
+            </StackLayout>
+        </pancakeview:PancakeView>
+        <Image Grid.Column="1" Margin="10,0,0,0">
+            <Image.Source>
+                <FontImageSource
+                    FontFamily="Regular"
+                    Glyph="{x:Static font:FontAwesomeIcons.HeartEmpty}"
+                    Size="30"
+                    Color="Black" />
+            </Image.Source>
+        </Image>
+    </Grid>
+
+    <Grid.Behaviors>
+        <xamanimation:EntranceTransition Duration="1000" />
+    </Grid.Behaviors>
+</Grid>

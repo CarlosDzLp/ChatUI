@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="ChatUI.Views.ChatPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:font="clr-namespace:ChatUI.Fonts"
+    xmlns:pancakeview="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:templateselector="clr-namespace:ChatUI.Controls"
+    xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation"
+    BackgroundColor="#FC4931"
+    NavigationPage.HasNavigationBar="False">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <templateselector:ChatMessageDataTemplateSelector x:Key="ChatSelector" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto,*">
+            <StackLayout Grid.Row="0" Padding="0,70,0,30">
+                <StackLayout>
+                    <Image Margin="0,0,30,0" HorizontalOptions="End">
+                        <Image.Source>
+                            <FontImageSource
+                                FontFamily="LightPro"
+                                Glyph="{x:Static font:FontAwesomeIcons.Search}"
+                                Size="25"
+                                Color="White" />
+                        </Image.Source>
+                    </Image>
+                </StackLayout>
+                <ScrollView
+                    Margin="0,20,0,0"
+                    HorizontalScrollBarVisibility="Never"
+                    Orientation="Horizontal">
+                    <StackLayout
+                        Padding="60,0,0,0"
+                        Orientation="Horizontal"
+                        Spacing="50">
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="25"
+                            Text="Messages"
+                            TextColor="White" />
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="25"
+                            Text="Online"
+                            TextColor="#dadada" />
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="25"
+                            Text="Gruops"
+                            TextColor="#dadada" />
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+            <pancakeview:PancakeView
+                Grid.Row="1"
+                BackgroundColor="#FEF9EB"
+                CornerRadius="50,50,0,0">
+                <Grid RowDefinitions="Auto,*">
+                    <StackLayout Padding="30,30,30,20">
+                        <Label
+                            FontAttributes="Bold"
+                            Text="Favorite contacts"
+                            TextColor="DarkGray" />
+                        <CollectionView
+                            HeightRequest="120"
+                            HorizontalScrollBarVisibility="Never"
+                            ItemsSource="{Binding ListUser}">
+                            <CollectionView.ItemsLayout>
+                                <LinearItemsLayout ItemSpacing="20" Orientation="Horizontal" />
+                            </CollectionView.ItemsLayout>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Padding="5">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                        <Image
+                                            Grid.Row="0"
+                                            BackgroundColor="#dadada"
+                                            HeightRequest="80"
+                                            Source="{Binding Image}"
+                                            WidthRequest="80">
+                                            <Image.Clip>
+                                                <EllipseGeometry
+                                                    Center="40,40"
+                                                    RadiusX="40"
+                                                    RadiusY="40" />
+                                            </Image.Clip>
+                                        </Image>
+                                        <Label
+                                            Grid.Row="1"
+                                            FontAttributes="Bold"
+                                            HorizontalOptions="Center"
+                                            Text="{Binding Name}" />
+                                        <Grid.Behaviors>
+                                            <xamanimation:EntranceTransition Duration="1000" />
+                                        </Grid.Behaviors>
+                                    </Grid>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </StackLayout>
+                    <pancakeview:PancakeView
+                        Grid.Row="1"
+                        Padding="30,0,30,0"
+                        BackgroundColor="White"
+                        CornerRadius="50,50,0,0">
+                        <CollectionView
+                            ItemTemplate="{StaticResource ChatSelector}"
+                            ItemsSource="{Binding ListChat}"
+                            SelectionChanged="CollectionView_SelectionChanged"
+                            SelectionMode="Single"
+                            VerticalScrollBarVisibility="Never">
+                            <CollectionView.ItemsLayout>
+                                <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
+                            </CollectionView.ItemsLayout>
+                        </CollectionView>
+                    </pancakeview:PancakeView>
+                </Grid>
+            </pancakeview:PancakeView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,20 +1,23 @@
-﻿<Properties StartupConfiguration="{AF2BE4E8-4E23-431D-9EBF-ADB66A613963}|Default">
+﻿<Properties StartupConfiguration="{89000236-FF10-4009-B795-04C0EE00D493}|Default">
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ChatUI" expanded="True" selected="True" />
+          <Node name="ChatUI" expanded="True">
+            <Node name="ChatUI" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ChatUI.Android FirstBuild="True" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.ItemProperties.ChatUI.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.R58M71K1VLF" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/carlosdiaz/ChatUI/ChatUI/ChatUI/Controls/ChatMessageDataTemplateSelector.cs" relfile="ChatUI/Controls/ChatMessageDataTemplateSelector.cs" line="35" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ChatUI FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.ChatUI.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ChatUI.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4D5B1B21-E918-4544-9405-5DCF54EA05E4" />
 </Properties>

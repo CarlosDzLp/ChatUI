@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Grid
+    x:Class="ChatUI.Views.Template.Chat.MessageTemplate"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation"
+    Padding="5"
+    BackgroundColor="White">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Image
+            Grid.Column="0"
+            BackgroundColor="#dadada"
+            HeightRequest="80"
+            Source="{Binding Image}"
+            WidthRequest="80">
+            <Image.Clip>
+                <EllipseGeometry
+                    Center="40,40"
+                    RadiusX="40"
+                    RadiusY="40" />
+            </Image.Clip>
+        </Image>
+        <StackLayout Grid.Column="1">
+            <Label
+                Grid.Column="2"
+                FontAttributes="Bold"
+                HorizontalOptions="Start"
+                Text="{Binding Name}" />
+            <Label
+                Grid.Column="2"
+                FontSize="11"
+                HorizontalOptions="Start"
+                Text="{Binding Message}" />
+        </StackLayout>
+        <Label
+            Grid.Column="2"
+            FontSize="12"
+            HorizontalOptions="Center"
+            Text="{Binding Date}" />
+        <Grid.Behaviors>
+            <xamanimation:EntranceTransition Duration="1000" />
+        </Grid.Behaviors>
+    </Grid>
+</Grid>

@@ -1,0 +1,30 @@
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/ChatUI.iOS.exe
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/ChatUI.iOS.pdb
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/ChatUI.dll
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamanimation.dll
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.PancakeView.dll
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/ChatUI.pdb
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.xml
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.xml
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.1/actool/_PartialAppManifest.items
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.1/actool/_BundleResourceWithLogicalName.items
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.1/coremlc/_PartialAppManifest.items
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.1/optimized/
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/ChatUI.iOS.csprojAssemblyReference.cache
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/ChatUI.iOS.csproj.CoreCompileInputs.cache
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/ChatUI.iOS.csproj.CopyComplete
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/ChatUI.iOS.exe
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/ChatUI.iOS.pdb
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.xml
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.PancakeView.xml

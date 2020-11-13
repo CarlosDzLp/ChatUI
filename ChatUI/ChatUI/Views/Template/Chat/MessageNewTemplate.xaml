@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Grid
+    x:Class="ChatUI.Views.Template.Chat.MessageNewTemplate"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pancakeview="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation"
+    BackgroundColor="White">
+    <pancakeview:PancakeView
+        Padding="10"
+        BackgroundColor="#FFEFED"
+        CornerRadius="15">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Image
+                Grid.Column="0"
+                BackgroundColor="#dadada"
+                HeightRequest="80"
+                Source="{Binding Image}"
+                WidthRequest="80">
+                <Image.Clip>
+                    <EllipseGeometry
+                        Center="40,40"
+                        RadiusX="40"
+                        RadiusY="40" />
+                </Image.Clip>
+            </Image>
+            <StackLayout Grid.Column="1">
+                <Label
+                    Grid.Column="2"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Start"
+                    Text="{Binding Name}" />
+                <Label
+                    Grid.Column="2"
+                    FontSize="11"
+                    HorizontalOptions="Start"
+                    Text="{Binding Message}" />
+            </StackLayout>
+            <StackLayout Grid.Column="2">
+                <Label
+                    FontSize="12"
+                    HorizontalOptions="Center"
+                    Text="{Binding Date}" />
+                <pancakeview:PancakeView
+                    Padding="5,3"
+                    BackgroundColor="#FC4931"
+                    HorizontalOptions="Center"
+                    VerticalOptions="EndAndExpand">
+                    <pancakeview:PancakeView.CornerRadius>
+                        <OnPlatform x:TypeArguments="CornerRadius">
+                            <On Platform="Android" Value="15" />
+                            <On Platform="iOS" Value="8" />
+                        </OnPlatform>
+                    </pancakeview:PancakeView.CornerRadius>
+                    <Label
+                        FontSize="8"
+                        HorizontalOptions="Center"
+                        Text="New"
+                        TextColor="White" />
+                </pancakeview:PancakeView>
+            </StackLayout>
+
+            <Grid.Behaviors>
+                <xamanimation:EntranceTransition Duration="1000" />
+            </Grid.Behaviors>
+        </Grid>
+    </pancakeview:PancakeView>
+
+</Grid>

@@ -1,14 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "G2N2Tk7/Ia429IrnC+AtHIWmA+GF0VifZVCsA9XH/8Xd6sRJHJBw2/CSSrN1tckmV9ecHgUsmQfkpM70bmJIQQ==",
+  "dgSpecHash": "b5OEHNTjrmCkkyhjmL0zU8+LU2E6KGd+hBqBiw4bBjoCyVQipTU60HTETPG2nfiXjo2QAGplcpcJvHv67Oz6uA==",
   "success": true,
   "projectFilePath": "/Users/carlosdiaz/ChatUI/ChatUI/ChatUI/ChatUI.csproj",
   "expectedPackageFiles": [
+    "/Users/carlosdiaz/.nuget/packages/fody/6.3.0/fody.6.3.0.nupkg.sha512",
     "/Users/carlosdiaz/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/carlosdiaz/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/carlosdiaz/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/carlosdiaz/.nuget/packages/propertychanged.fody/3.3.1/propertychanged.fody.3.3.1.nupkg.sha512",
+    "/Users/carlosdiaz/.nuget/packages/system.componentmodel/4.3.0/system.componentmodel.4.3.0.nupkg.sha512",
     "/Users/carlosdiaz/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/carlosdiaz/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/Users/carlosdiaz/.nuget/packages/xamanimation/1.3.0/xamanimation.1.3.0.nupkg.sha512",
     "/Users/carlosdiaz/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/carlosdiaz/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "/Users/carlosdiaz/.nuget/packages/xamarin.forms/4.8.0.1687/xamarin.forms.4.8.0.1687.nupkg.sha512",
+    "/Users/carlosdiaz/.nuget/packages/xamarin.forms.pancakeview/2.3.0.759/xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
   ],
   "logs": []
 }

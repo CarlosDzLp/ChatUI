@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    x:Class="ChatUI.Controls.ChatInputBarView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:font="clr-namespace:ChatUI.Fonts"
+    xmlns:pancakeview="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+    <ContentView.Content>
+        <pancakeview:PancakeView
+            Margin="20,0,20,40"
+            BackgroundColor="#FEF9EB"
+            CornerRadius="20">
+            <Grid
+                Grid.Row="1"
+                Padding="0,10"
+                ColumnDefinitions="Auto,Auto,*,Auto">
+                <Image Grid.Column="0" Margin="10,0,0,0">
+                    <Image.Source>
+                        <FontImageSource
+                            FontFamily="LightPro"
+                            Glyph="{x:Static font:FontAwesomeIcons.PaperClip}"
+                            Size="25"
+                            Color="#9E9E9E" />
+                    </Image.Source>
+                </Image>
+                <Image Grid.Column="1" Margin="0,0,0,0">
+                    <Image.Source>
+                        <FontImageSource
+                            FontFamily="LightPro"
+                            Glyph="{x:Static font:FontAwesomeIcons.Smile}"
+                            Size="25"
+                            Color="#9E9E9E" />
+                    </Image.Source>
+                </Image>
+                <Entry
+                    Grid.Column="2"
+                    BackgroundColor="#FEF9EB"
+                    Placeholder="Message"
+                    PlaceholderColor="Gray"
+                    Text="{Binding Message}" />
+                <Image Grid.Column="3" Margin="0,0,10,0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding SendMessageCommand}" />
+                    </Image.GestureRecognizers>
+                    <Image.Source>
+                        <FontImageSource
+                            FontFamily="LightPro"
+                            Glyph="{x:Static font:FontAwesomeIcons.Send}"
+                            Size="25"
+                            Color="#9E9E9E" />
+                    </Image.Source>
+                </Image>
+            </Grid>
+        </pancakeview:PancakeView>
+    </ContentView.Content>
+</ContentView>
