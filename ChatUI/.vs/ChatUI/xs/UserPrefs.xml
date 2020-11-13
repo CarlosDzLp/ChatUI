@@ -3,14 +3,12 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ChatUI" expanded="True">
-            <Node name="ChatUI" expanded="True" />
-          </Node>
+          <Node name="ChatUI" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ChatUI.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.R58M71K1VLF" />
+  <MonoDevelop.Ide.ItemProperties.ChatUI.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -19,5 +17,5 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ChatUI.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4D5B1B21-E918-4544-9405-5DCF54EA05E4" />
+  <MonoDevelop.Ide.ItemProperties.ChatUI.iOS automaticSigning="False" TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BA8ADB5B-8C5F-4DA9-A7B9-6526F7F2EBB1" />
 </Properties>

@@ -596,7 +596,7 @@
             <summary>Compile the XAML for the class or project when the application is built.</summary>
         </member>
         <member name="F:Xamarin.Forms.Xaml.XamlCompilationOptions.Skip">
-            <summary>Compile the XAML for the class or project when the application is run on the device.</summary>
+            <summary>Skip the compilation for this type or assembly. The XAML will be parsed, and the object graph constructed, at runtime.</summary>
         </member>
         <member name="T:Xamarin.Forms.Xaml.XamlFilePathAttribute">
             <summary>For internal use by the Xaml infrastructure.</summary>

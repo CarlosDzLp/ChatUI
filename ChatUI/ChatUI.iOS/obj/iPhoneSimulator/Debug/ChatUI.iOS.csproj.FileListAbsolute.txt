@@ -13,12 +13,6 @@
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.xml
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.1/actool/_PartialAppManifest.items
-/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.1/actool/_BundleResourceWithLogicalName.items
-/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.1/coremlc/_PartialAppManifest.items
-/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.1/coremlc/_BundleResourceWithLogicalName.items
-/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.1/optimized/
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/ChatUI.iOS.csprojAssemblyReference.cache
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/ChatUI.iOS.csproj.CoreCompileInputs.cache
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/ChatUI.iOS.csproj.CopyComplete
@@ -28,3 +22,9 @@
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.xml
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.PancakeView.xml
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.2/actool/_PartialAppManifest.items
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.2/actool/_BundleResourceWithLogicalName.items
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.2/coremlc/_PartialAppManifest.items
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.2/optimized/

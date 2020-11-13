@@ -10,10 +10,13 @@
             Margin="20,0,20,40"
             BackgroundColor="#FEF9EB"
             CornerRadius="20">
-            <Grid
-                Grid.Row="1"
-                Padding="0,10"
-                ColumnDefinitions="Auto,Auto,*,Auto">
+            <Grid Grid.Row="1" ColumnDefinitions="Auto,Auto,*,Auto">
+                <Grid.Padding>
+                    <OnPlatform x:TypeArguments="Thickness">
+                        <On Platform="iOS" Value="0,10" />
+                        <On Platform="Android" Value="0" />
+                    </OnPlatform>
+                </Grid.Padding>
                 <Image Grid.Column="0" Margin="10,0,0,0">
                     <Image.Source>
                         <FontImageSource

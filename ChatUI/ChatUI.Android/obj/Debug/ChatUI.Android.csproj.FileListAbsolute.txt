@@ -81,7 +81,6 @@
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/bin/Debug/Xamarin.Essentials.pdb
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/bin/Debug/Xamarin.Essentials.xml
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/obj/Debug/lp/40/jl/files.cache
-/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/obj/Debug/XamlC.stamp
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/obj/Debug/ChatUI.Android.csproj.CopyComplete
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/obj/Debug/ChatUI.Android.dll
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/obj/Debug/ChatUI.Android.pdb
@@ -546,3 +545,8 @@
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/bin/Debug/Xamarin.Forms.PancakeView.xml
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/DragAndDropGestureHandler.java
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/GradientStrokeDrawable.java
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/GradientStrokeDrawable_GradientShaderFactory.java
+/Users/carlosdiaz/ChatUI/ChatUI/ChatUI.Android/obj/Debug/android/src/crc646eca5e70bd7a187f/CustomEntryRenderer.java
